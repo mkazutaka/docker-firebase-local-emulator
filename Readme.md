@@ -6,7 +6,8 @@ Docker image contains firebase local emulator.
 
 You can overwrite the following environment variables:
 
-| Name | Default Value |
-|---|---------------|
-| FIREBASE_AUTH_PORT | 4001 |
-| FIREBASE_FIRESTORE_PORT | 4002 |
+| Name | Default Value | Description                      |
+|---|---------------|----------------------------------|
+| FIREBASE_PROJECT | firebase      | Firebase project name            |
+| FIREBASE_AUTH_PORT | 4001          | Firebase Auth emulator port      |
+| FIREBASE_FIRESTORE_PORT | 4002          | Firestore emulator port |

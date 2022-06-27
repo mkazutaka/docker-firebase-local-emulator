@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
+cat << EOS > .firebaserc
+{
+  "projects": {
+    "default": "${FIREBASE_PROJECT:-firebase}"
+  }
+}
+EOS
+
 cat << EOS > firebase.json
 {
   "emulators": {
